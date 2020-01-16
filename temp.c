@@ -2,13 +2,11 @@
 #include<stdio.h>
 int multi(int num1,int num2)
 {
-  int pro = num1 * num2;
-  return pro;
+  return (num1 * num2);
 }
 
 void main()
 {
-  int product;
-  product = multi(5,10);
+  printf("Product = %d",multi(5,10););
 }
 
